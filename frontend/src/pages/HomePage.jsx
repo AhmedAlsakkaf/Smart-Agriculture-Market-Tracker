@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
@@ -18,12 +19,18 @@ const HomePage = () => {
             insights, and community knowledge - all in one place
           </p>
           <div className="flex gap-4 justify-center">
-            <button className="bg-primary-yellow text-primary-green px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition">
+            <Link
+              to="/signup"
+              className="bg-primary-yellow text-primary-green px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition"
+            >
               Get Started
-            </button>
-            <button className="bg-white text-primary-green px-8 py-3 rounded-lg font-semibold hover:bg-light-green transition">
-              Learn More
-            </button>
+            </Link>
+            <Link
+              to="/login"
+              className="bg-white text-primary-green px-8 py-3 rounded-lg font-semibold hover:bg-light-green transition"
+            >
+              Sign In
+            </Link>
           </div>
         </div>
       </div>
@@ -300,9 +307,12 @@ const HomePage = () => {
             Join thousands of farmers who are already making smarter decisions
             with our platform.
           </p>
-          <button className="bg-primary-green text-white px-12 py-4 rounded-lg font-semibold text-lg hover:opacity-90 transition">
+          <Link
+            to="/signup"
+            className="inline-block bg-primary-green text-white px-12 py-4 rounded-lg font-semibold text-lg hover:opacity-90 transition"
+          >
             Join Now - It's Free!
-          </button>
+          </Link>
         </div>
       </div>
 
