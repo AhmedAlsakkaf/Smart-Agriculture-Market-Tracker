@@ -1,0 +1,10 @@
+# Flask Server Dependencies
+Flask==2.2.2
+Flask-SQLAlchemy==2.5.1
+Flask-Bcrypt==1.0.1
+Flask-JWT-Extended==4.4.4
+SQLAlchemy==1.4.39
+Werkzeug==2.3.8
+
+# Test Script Dependency
+requests==2.28.1
