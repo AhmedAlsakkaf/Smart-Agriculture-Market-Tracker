@@ -1,13 +1,23 @@
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+
 function App() {
   return (
-    <div className="min-h-screen bg-light-green">
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-4xl font-bold text-primary-green mb-4">
-          Smart Agriculture Market Tracker
-        </h1>
-        <p className="text-primary-green">Ready to build! 🌾</p>
+    <Router>
+      <div className="min-h-screen bg-white">
+        <Routes>
+          {/* Default route - HomePage */}
+          <Route path="/" element={<HomePage />} />
+
+          {/* Add more routes here as we build */}
+          {/* <Route path="/login" element={<LoginPage />} /> */}
+          {/* <Route path="/signup" element={<SignupPage />} /> */}
+          {/* <Route path="/admin" element={<AdminDashboard />} /> */}
+          {/* <Route path="/farmer" element={<FarmerDashboard />} /> */}
+        </Routes>
       </div>
-    </div>
+    </Router>
   );
 }
 

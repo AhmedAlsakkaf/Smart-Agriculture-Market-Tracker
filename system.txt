@@ -1,0 +1,61 @@
+
+Since I am working with a backend developer, he said he will be providing me with the apis needed for this system. just check the system below. Also I would like us to work step by step funs by funs so that we complete the projct. 
+Like we will start with step by step. Now in the pages folder
+create the main page, some info about the system. 
+Web Innovators Hackathon 
+Project Title: Smart Agriculture Market Tracker 
+Overview 
+In Pakistan, thousands of farmers and vegetable vendors make critical business decisions 
+without real-time data. Prices of vegetables fluctuate daily across different regions, and 
+unpredictable weather adds more uncertainty. 
+Your mission is to build a web-based platform that empowers farmers with transparent 
+market rates, weather insights, and community knowledge, all in one place. 
+Objective 
+Develop a full-stack web application that allows: 
+• Admins to upload and manage vegetable/fruit market data. 
+• Farmers to view up-to-date prices, see weather updates, track trends, and discuss 
+issues in a farming community forum. 
+Core Functional Modules 
+1
+ ️. Authentication 
+• Two types of users: Admin and Farmer. 
+• Admin uploads or updates market data. 
+• Farmers log in to access dashboards and interact with the system. 
+2
+ ️. Admin Dashboard 
+• Upload/update daily market rates of vegetables and fruits. 
+• Add, edit, or delete items. 
+• Optionally view summary stats such as total entries or average prices. 
+3
+ ️. Farmer Dashboard 
+• Display all vegetable/fruit prices in a clear, searchable table. 
+• Show region-specific weather updates. 
+4
+ ️. Data Visualization 
+Each listed vegetable/fruit must include a 7-day price trend chart. 
+Implementation details: 
+• Simulate 7 days of price data.
+• Visualize prices using Chart.js, Recharts, or any JS chart library. 
+• Graph should display Price vs. Date with hover tooltips. 
+Bonus Challenge: 
+Allow comparison of multiple vegetables (e.g., “Tomato vs. Potato” price trends). 
+5
+ ️. Weather Module 
+• Display live or mock weather data for multiple Pakistani cities. 
+• Represent data visually (e.g., icons, temperature, humidity). 
+• Bonus: Visualize data on a Pakistan map using color-coded regions, blue for rain, 
+yellow for heat, green for normal.
+6
+ ️. Smart Farmer Advice (AI or Logic-Based Feature) 
+To make this project truly smart, generate short AI-based or rule-based advice for farmers. 
+Examples: 
+• Avoid watering crops today, rain expected. 
+• Tomato prices are rising; sell within the next two days. 
+Implementation Options: 
+• Option 1️: Use your own logic (if weather = rain then advice = “Don’t water”). 
+• Option 2️ (Advanced): Use OpenAI GPT API (or any LLM) to automatically rate or 
+generate advice. 
+7. Community Forum 
+• Farmers can post,and comment. 
+• Perform CRUD operations on posts and comments (create, read, update, delete). 
+• Encourage meaningful user interactions.
